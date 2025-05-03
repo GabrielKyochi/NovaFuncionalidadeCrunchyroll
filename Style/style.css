@@ -20,3 +20,30 @@ body{
     height: 40px;
     width: 175px;
 }
+
+/*Main*/
+#centralizacaoCapas{
+    padding: 20px;
+}
+
+.capasAnime{
+    display: flex;
+    border-style: solid;
+    border-color: #d25810;
+    border-width: 2px;
+    width: 350px;
+}
+
+/*Footer*/
+#footer{
+    background-color: #212329;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.iconesFooter{
+    padding: 10px;
+    padding-right: 19px;
+    height: 30px;
+    width: 33px;
+}
