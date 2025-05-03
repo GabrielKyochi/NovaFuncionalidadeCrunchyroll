@@ -4,17 +4,19 @@ body{
     color: white;
 }
 
+/*Página Principal*/
+
 /*Header*/
-#header{
+.header{
     display: flex;
 }
 
-#iconePesquisa{
+.iconePesquisa{
    padding: 18px;
    height: 30px;
 }
 
-#quadradoPesquisar{
+.quadradoPesquisar{
     margin-top: 10px;
     background-color: #212329;
     color: white;
@@ -36,7 +38,7 @@ body{
 }
 
 /*Footer*/
-#footer{
+#footerPrincipal{
     position: fixed;
     top: 867px;
     left: 7px;
@@ -50,4 +52,20 @@ body{
     padding-right: 19px;
     height: 30px;
     width: 33px;
+}
+
+/*Página de conversa*/
+
+#h2{
+    padding-left: 2px;
+}
+
+#footerConversa{
+    position: fixed;
+    top: 950px;
+    left: 16px;
+    background-color: #212329;
+    height: 50px;
+    width: 414px;
+    border-radius: 15px;
 }
