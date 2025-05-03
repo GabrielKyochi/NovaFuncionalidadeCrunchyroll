@@ -36,6 +36,9 @@ body{
 
 /*Footer*/
 #footer{
+    position: fixed;
+    top: 867px;
+    left: 7px;
     background-color: #212329;
     height: 50px;
     border-radius: 15px;
