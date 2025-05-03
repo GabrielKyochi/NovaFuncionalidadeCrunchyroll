@@ -25,11 +25,11 @@ body{
 }
 
 /*Main*/
-#centralizacaoCapas{
+#centralizacaoCapasPrincipal{
     padding: 20px;
 }
 
-.capasAnime{
+.capasAnimePrincipal{
     display: flex;
     border-style: solid;
     border-color: #d25810;
@@ -47,26 +47,11 @@ body{
     border-radius: 15px;
 }
 
-.iconesFooter{
-    padding: 10px;
-    padding-right: 19px;
-    height: 30px;
-    width: 33px;
-}
-
 /*Página de conversa*/
 
+/*Header*/
 #h2{
     padding-left: 2px;
-}
-
-#footerConversa{
-    position: fixed;
-    top: 948px;
-    left: 25px;
-    background-color: #212329;
-    height: 50px;
-    border-radius: 15px;
 }
 
 #tamanhoSeta{
@@ -81,3 +66,37 @@ body{
     padding-right: 4px;
     color: #d25810;
 }
+
+/*Main*/
+#centralizacaoCapasConversa{
+    padding-top: 6px;
+}
+
+.capasAnimeConversa{
+    display: flex;
+    border-style: solid;
+    border-color: #d25810;
+    border-width: 3px;
+    width: 435px;
+    height: 180px;
+}
+
+
+/*Footer*/
+#footerConversa{
+    position: fixed;
+    top: 948px;
+    left: 25px;
+    background-color: #212329;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.iconesFooter{
+    padding: 10px;
+    padding-right: 19px;
+    height: 30px;
+    width: 33px;
+}
+
+
