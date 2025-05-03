@@ -62,10 +62,22 @@ body{
 
 #footerConversa{
     position: fixed;
-    top: 950px;
-    left: 16px;
+    top: 948px;
+    left: 25px;
     background-color: #212329;
     height: 50px;
-    width: 414px;
     border-radius: 15px;
+}
+
+#tamanhoSeta{
+    height: 22px;
+    width: 22px;
+    padding-left: 4px;
+    margin-top: -18px;
+}
+
+#voltar{
+    margin-top: 0px;
+    padding-right: 4px;
+    color: #d25810;
 }
